@@ -1,6 +1,6 @@
 {
   "name": "@mfe/precommit-eslint",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "git commit时执行eslint，只对修改的行做检验",
   "bin": {
     "precommit-eslint": "./bin/precommit-eslint.js"
