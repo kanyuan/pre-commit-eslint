@@ -1,0 +1,26 @@
+{
+  "name": "@mfe/precommit-eslint",
+  "version": "1.0.0",
+  "description": "git commit时执行eslint，只对修改的行做检验",
+  "bin": {
+    "precommit-eslint": "./bin/precommit-eslint.js"
+  },
+  "scripts": {
+    "install": "node ./src/install.js",
+    "uninstall": "node ./src/uninstall.js"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "peerDependencies": {
+    "eslint": "^7.8.0"
+  },
+  "author": "wangliqiang",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kanyuan/pre-commit-eslint"
+  },
+  "license": "ISC",
+  "devDependencies": {}
+}
